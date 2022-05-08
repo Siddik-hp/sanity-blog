@@ -10,7 +10,6 @@ const Form = ({ post }) => {
             body: JSON.stringify(data)
         }).then(() => {
             setFormSubmite(true)
-            console.log(data);
         }).catch((error) => {
             console.error(error);
         })
