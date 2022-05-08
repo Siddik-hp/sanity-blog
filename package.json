@@ -1,5 +1,5 @@
 {
-  "name": "blog",
+  "name": "sanity",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,12 +9,28 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@portabletext/react": "^1.0.6",
+    "@sanity/cli": "^2.29.8",
+    "@sanity/client": "^3.3.0",
+    "@sanity/image-url": "^1.0.1",
     "next": "12.1.6",
+    "next-connect": "^0.12.2",
+    "next-sanity": "^0.5.2",
+    "nextjs-progressbar": "^0.0.14",
     "react": "18.1.0",
-    "react-dom": "18.1.0"
+    "react-dom": "18.1.0",
+    "react-hook-form": "^7.30.0",
+    "react-portable-text": "^0.4.3",
+    "sass": "^1.51.0"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.7",
     "eslint": "8.15.0",
-    "eslint-config-next": "12.1.6"
-  }
+    "eslint-config-next": "12.1.6",
+    "postcss": "^8.4.13",
+    "tailwindcss": "^3.0.24"
+  },
+  "main": "index.js",
+  "author": "siddike <absiddikhp@gmail.com>",
+  "license": "MIT"
 }
